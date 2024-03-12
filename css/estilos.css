@@ -5,3 +5,11 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
+div {
+    background-color: white;
+    width: 70%;
+    margin: auto;
+}
+
+
