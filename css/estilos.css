@@ -12,4 +12,9 @@ div {
     margin: auto;
 }
 
+/* Tornando as imagens flexíveis/responsivas */
+img { max-width: 100%; }
+
+
+
 
