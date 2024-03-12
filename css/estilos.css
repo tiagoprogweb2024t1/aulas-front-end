@@ -1,0 +1,7 @@
+/* O que fazer/escrever aqui? REGRAS DE FORMATAÇÃO */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(../imagens/tarde.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
