@@ -65,10 +65,19 @@ h1 {
     
     /* Versão abreviada: */
     border-radius: 10px 10px 0 0;
-    
+
     text-shadow: black 3px 3px 5px;
 }
 
+h2 {
+    font-size: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-left-style: solid;
+    border-left-width: 20px;
+    /* margin-left: 30px; */
+    padding-left: 10px;
+}
 
 
 
