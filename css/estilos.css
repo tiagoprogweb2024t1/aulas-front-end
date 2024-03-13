@@ -108,6 +108,21 @@ figure img:hover {
 }
 
 
+/* Seletor AGRUPADO (grupo de seletores) */
+p, li { font-size: 18px; }
+
+
+/* Seletor CLASSE */
+.centralizar { text-align: center; }
+
+.sombra { text-shadow: red 1px 1px 5px; }
+
+.destaque {
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 4px;
+}
 
 
 
