@@ -33,6 +33,7 @@ As regras vão valer para todos os elementos/tags desta página.
 
 ##### Como fazer uma regra CSS?
 
+```css
 seletor { propriedade: valor; }
 
 seletor {
@@ -40,6 +41,7 @@ seletor {
     propriedade2: valor;
     propriedadeN: valor;
 }
+```
 
 #### Externa (mais usada!)
 
