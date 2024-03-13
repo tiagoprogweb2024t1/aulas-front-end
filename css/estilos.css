@@ -43,13 +43,6 @@ Crie uma nova regra CSS para estilizar o elemento h1 com as seguintes caracterí
 - Bordas arredondadas APENAS nos cantos superiores
 - Sombra no TEXTO */
 
-
-
-
-
-
-
-
 h1 {
     font-family: Impact, Verdana, Arial, sans-serif;
     background-color: rgba(0, 0, 0, 0.5);
