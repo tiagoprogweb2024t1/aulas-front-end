@@ -6,7 +6,8 @@ body {
     background-size: cover;
 }
 
-div {
+/* Seletor IDENTIFICADO */
+#container {
     background-color: white;
     width: 70%;
     margin: auto;
@@ -125,4 +126,9 @@ p, li { font-size: 18px; }
 }
 
 
-
+.destaques-back {
+    background-color: rgba(255, 255, 0, 0.241);
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
