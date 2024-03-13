@@ -86,7 +86,26 @@ h2 {
     padding-left: 10px;
 }
 
+/* Seletor TAG (vale para todos os <a>) */
+a { text-decoration: none; }
 
+/* Seletor DESCENDENTE 
+(vale para todos os <a> CONTIDOS
+em <nav>) */
+nav a { color: black; }
+
+figure img {
+    transform: scale(0.8);
+    transition: 0.5s;
+    filter: grayscale(100%);
+}
+
+/* Usando a pseudo-classe :hover
+(ação de passar o mouse) */
+figure img:hover {
+    transform: scale(1) rotateX(360deg);
+    filter: grayscale(0);
+}
 
 
 
