@@ -60,6 +60,20 @@ h1 {
     border-radius: 10px 10px 0 0;
 
     text-shadow: black 3px 3px 5px;
+
+    letter-spacing: 2px;
+    font-weight: normal;
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black; 
+    
+    /* Propriedades com prefixo
+    -webkit-*, -moz-*, -o-*
+    
+    Propriedades relacionadas à 
+    determinados navegadores. Podem
+    ter problemas de compatibilidade.  
+    */
 }
 
 h2 {
