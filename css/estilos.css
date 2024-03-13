@@ -54,6 +54,7 @@ Crie uma nova regra CSS para estilizar o elemento h1 com as seguintes caracterí
 - Sombra no TEXTO */
 
 h1 {
+    margin: 0;
     font-family: Impact, Verdana, Arial, sans-serif;
     background-color: rgba(0, 0, 0, 0.5);
     color:white;
@@ -157,6 +158,14 @@ nav a {
 
 /* Regra para o estado de acionamento dos
 links */
-nav a:hover {
+nav a:hover, nav a:focus {
     background-color: black;
+}
+
+nav a:first-child {
+    border-bottom-left-radius: 8px;
+}
+
+nav a:last-child {
+    border-bottom-right-radius: 8px;
 }
