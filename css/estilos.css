@@ -169,3 +169,31 @@ nav a:first-child {
 nav a:last-child {
     border-bottom-right-radius: 8px;
 }
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+ul li {
+    color: red;
+    list-style-type: square;
+}
+
+/* Seletor pseudo-elemento ::marker
+para alterar o conteúdo do marcador
+da lista */
+ul li::marker {
+    content: "👻 ";
+    font-size: 16px;
+    font-weight: bold;
+    color: blue;
+}
+
+/* Pseudo-classes */
+ul li:first-child { font-weight: bold; }
+ul li:last-child { font-style: italic; }
+ul li:nth-child(3){ color: green; }
+
