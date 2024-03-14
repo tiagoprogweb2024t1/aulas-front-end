@@ -201,3 +201,23 @@ ul li:nth-child(3){ color: green; }
 ul li:nth-child(even) { background: pink;}
 ul li:nth-child(odd) { background: lightblue; }
 
+details {
+    border: solid 2px;
+    padding: 8px;
+}
+
+summary { 
+    font-weight: bold;
+    cursor: pointer;
+}
+
+summary::marker { content: "😑 "; }
+
+/* Seletor de ATRIBUTO
+Somente quando o details estiver com o 
+atributo open (portanto, quando ele é acionado),
+faremos a troca do marcador/emoji. */
+details[open] summary::marker {
+    content: "😛 ";
+}
+
