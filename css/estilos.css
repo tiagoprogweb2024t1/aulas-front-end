@@ -197,3 +197,7 @@ ul li:first-child { font-weight: bold; }
 ul li:last-child { font-style: italic; }
 ul li:nth-child(3){ color: green; }
 
+/* Cores alternadas */
+ul li:nth-child(even) { background: pink;}
+ul li:nth-child(odd) { background: lightblue; }
+
