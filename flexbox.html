@@ -20,14 +20,25 @@ img { max-width: 100%; }
 
 #exemplo-flexbox {
 	width: 80%;
-	height: 600px;
+	height: 1200px;
 	margin: auto;
 	background-color: lightgoldenrodyellow;
 
 	/* Habilitando o Flexbox */
 	display: flex;
-	justify-content: space-between;
+	
+	/* justify-content 
+	Em direção padrão "row", se	comporta como alinhamento horizontal.
+	
+	Se estiver na direção "column",	se comporta como alinhamento vertical. */
+	justify-content: flex-start;
+	
+	/* align-itens funciona de forma
+	contrária. Ou seja, em modo "row" alinha verticalmente.
+	Em modo "column", alinha horizontalmente. */
 	align-items: center;
+
+	flex-direction: column; /* row padrão */
 }
 </style>
 
