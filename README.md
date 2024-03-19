@@ -62,3 +62,7 @@ seletor {
 - Classe: seletor versátil que permite a aplicação de estilos em diversos elementos, possibilitando também a combinação de diferentes classes. No CSS usa-se .nome-da-classe para criar a classe, e no HTML usa-se o atributo class="nome-da-classe" para aplicar a classe.
 
 - Identificado: seletor bastante restrito (o mesmo id só pode ser usado em um elemento por página), permitindo criar uma estilização altamente específica. No CSS usa-se #nome-do-id para criar, e no HTML usa-se o atributo id="nome-do-id" para aplicar.
+
+- Atributo
+
+- Pseudo-elemento
