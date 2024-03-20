@@ -1,9 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Layout Responsivo</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Layout Responsivo</title>
+<style>
+/* 1) Regras de uso geral */
+* { box-sizing: border-box; }  
+
+body {
+    font-family: Verdana;
+    background-color: lightblue;
+}
+
+.container {
+    background-color: white;
+    padding: 5px;
+    box-shadow: black 0 0 5px;
+}
+
+/* Regra de reset CSS
+É comum resetar valores de alguns
+elementos/propriedades visando evitar
+inconsitências nos resultados. */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+h2, p { padding: 4px; }
+
+.topo { 
+    padding: 4px;
+    background-color: hotpink; 
+}
+
+h1 { background-color: yellow; }
+
+.menu { background-color: greenyellow; }
+
+.conteudo {
+    padding: 4px;
+    background-color: aquamarine;
+}
+
+.um, .dois, .tres { border: solid 1px black; }
+
+.um { background-color: orange; }
+.dois { background-color: pink; }
+.tres { background-color: yellowgreen; }
+
+.rodape { background-color: red; }
+
+
+
+
+/* 2) Regras de uso condicional
+(COM MEDIA QUERIES) */
+
+</style>
 </head>
 <body>
     <div class="container">
