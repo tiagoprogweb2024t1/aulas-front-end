@@ -74,6 +74,22 @@ h1 { background-color: yellow; }
     }
 }
 
+@media screen and (min-width: 740px) {
+    .conteudo { 
+        display: flex; 
+        gap: 10px; /* cria um espaço entre os itens */
+
+        /* Habilitando a "quebra" da linha (row).
+        Ou seja, se não tiver mais espaço para encaixar
+        lado a lado, acontecerá uma quebra (o elemento vai
+        para a linha de baixo) */
+        flex-wrap: wrap;
+    }
+    .um { width: 68%; }
+    .dois { width: 30%; }
+    .tres { width: 100%; }
+}
+
 </style>
 </head>
 <body>
