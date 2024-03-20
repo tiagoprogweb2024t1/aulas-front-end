@@ -1,23 +1,110 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design Responsivo</title>
+    <style>
+        /* Etapa 1:
+Regras de uso geral, ou seja, estilos que vão ser aplicados
+para telas pequenas e também para telas maiores. */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Verdana;
+            background-color: lightblue;
+        }
+
+        .exemplo {
+            background-color: white;
+            padding: 4px;
+            border-radius: 4px;
+        }
+
+        h1 {
+            color: darkblue;
+            font-size: 24px;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background-color: darkblue;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+
+        /* Etapa 2: 
+Regras de uso condicional, ou seja, estilos que vão ser aplicados de acordo com determinadas condições (tamanhos
+de tela). */
+
+        /* Media Queries (Consultas de Mídia)
+e Breakpoints (pontos de adaptação) */
+        @media screen and (min-width: 600px) {
+            body {
+                background-color: yellow;
+            }
+
+            h1 {
+                text-align: center;
+                font-size: 28px;
+            }
+        }
+
+        /* Exercício!
+Faça uma regra condicional para telas com tamanho
+maior ou igual a 777px em que as seguintes adaptações
+aconteçam:*/
+        @media screen and (min-width: 777px) {
+            .exemplo {
+                width: 75%;
+                margin: auto;
+            }
+
+            b {
+                background-color: black;
+                color: white;
+            }
+
+            p {
+                font-size: 18px;
+            }
+
+            body {
+                background-color: lightblue;
+            }
+        }
+
+        /*- A div exemplo deve ter largura de 75% e ficar no meio
+- Os negritos devem ter outra cor (fundo e/ou texto)
+- O tamanhos dos parágrafos deve subir para 18px
+- Cor de fundo da página deve voltar à cor original */
+    </style>
 </head>
+
 <body>
     <div class="exemplo">
         <h1>Design Responsivo (ou responsividade)</h1>
         <hr>
         <p>Conjunto de técnicas de desenvolvilmento front-end
-        visando a construção de sites em que o layout e a experiência geral de uso funcionem bem em dispositivos com telas de tamanhos variados.</p>
+            visando a construção de sites em que o layout e a experiência geral de uso funcionem bem em dispositivos com
+            telas de tamanhos variados.</p>
         <p>Existem <b>duas abordagens</b> para desenvolvimento responsivo:</p>
 
         <h2>Mobile First (é o mais usado)</h2>
-        <p>Nesta abordagem o desenvolvimento é focado <b>primeiro em telas pequenas</b>, para somente depois realizarmos ajustes para telas maiores.</p>
+        <p>Nesta abordagem o desenvolvimento é focado <b>primeiro em telas pequenas</b>, para somente depois realizarmos
+            ajustes para telas maiores.</p>
 
         <h2>Desktop First</h2>
-        <p>Nesta abordagem o desenvolvimento é focado <b>primeiro em telas grandes</b>, para somente depois realizarmos ajustes para telas pequenas.</p>
+        <p>Nesta abordagem o desenvolvimento é focado <b>primeiro em telas grandes</b>, para somente depois realizarmos
+            ajustes para telas pequenas.</p>
     </div>
 </body>
+
 </html>
