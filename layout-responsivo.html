@@ -86,8 +86,7 @@ h1 { background-color: yellow; }
 
         /* Habilitando a "quebra" da linha (row).
         Ou seja, se não tiver mais espaço para encaixar
-        lado a lado, acontecerá uma quebra (o elemento vai
-        para a linha de baixo) */
+        lado a lado, acontecerá uma quebra (o elemento vai para a linha de baixo) */
         flex-wrap: wrap;
         justify-content: space-between;
         
@@ -99,6 +98,30 @@ h1 { background-color: yellow; }
         margin-top: 1%;
     }
 }
+
+@media screen and (min-width: 1000px) {
+    .topo { height: 100px; }
+    
+    h1 { 
+        font-size: 40px; 
+        /* padding-top: 20px; */
+        display: flex;
+        align-items: center;
+    }
+    .menu a { font-size: 22px; }
+
+    .conteudo { flex-wrap: nowrap; }
+
+    .um, .dois, .tres { width: 33%; }
+    
+    .tres { margin-top: 0; }
+
+    .container {
+        max-width: 1000px;
+        margin: auto;
+    }
+}
+
 
 </style>
 </head>
